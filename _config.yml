@@ -40,17 +40,18 @@ social:
     # The first element serves as the copyright owner's link
     - https://twitter.com/some1like_me_ # change to your twitter homepage
     - https://github.com/devw00dy # change to your github homepage
+    - https://www.instagram.com/dev_w00dy
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 
-google_site_verification: rvHNI9364KwSG8-5ckwm_soYH-dG8QUtAlVqOxfRh40 # fill in to your verification string
+google_site_verification: -luwvJGJMG8t_cntPy5AW0yUcze30k1wKIlaZ0F0BDU # fill in to your verification string
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
 
 google_analytics:
-  id: G-3100F3WN00 # fill in your Google Analytics ID
+  id: G-G83KPMPVFJ # fill in your Google Analytics ID
 
 # Prefer color scheme setting.
 #
