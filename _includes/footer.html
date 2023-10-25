@@ -11,7 +11,7 @@
     {{ '©' }}
     <time>{{ 'now' | date: '%Y' }}</time>
     <a href="{{ site.social.links[0] }}">{{ site.social.name }}</a>.
-    {% if site.data.locales[include.lang].copyright.brief %}
+    <!-- {% if site.data.locales[include.lang].copyright.brief %}
       <span
         data-bs-toggle="tooltip"
         data-bs-placement="top"
@@ -19,18 +19,10 @@
       >
         {{- site.data.locales[include.lang].copyright.brief -}}
       </span>
-    {% endif %}
-  </p>
-
-  <p>
-    {%- capture _platform -%}
-      <a href="https://jekyllrb.com" target="_blank" rel="noopener">Jekyll</a>
-    {%- endcapture -%}
-
-    {%- capture _theme -%}
-      <a href="https://github.com/cotes2020/jekyll-theme-chirpy" target="_blank" rel="noopener">Chirpy</a>
-    {%- endcapture -%}
-
-    {{ site.data.locales[include.lang].meta | replace: ':PLATFORM', _platform | replace: ':THEME', _theme }}
+    {% endif %} -->
+          <span data-bs-toggle="tooltip" data-bs-placement="top" title="Except where otherwise noted, the blog posts on this site are licensed
+    under the Creative Commons Attribution 4.0 International (CC BY 4.0) License by the author.">
+            All rights reserved.
+          </span>
   </p>
 </footer>
