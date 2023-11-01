@@ -78,7 +78,7 @@ theme_mode: # [light|dark]
 img_cdn: ""
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "/assets/img/IMG_8899.JPG"
+avatar: "/assets/img/santa.JPG"
 
 # boolean type, the global switch for TOC in posts.
 toc: true
@@ -138,6 +138,12 @@ collections:
     sort_by: order
 
 defaults:
+  - scope:
+      path: ""
+    values:
+      images: /assets/img/santa.JPG
+      heigth: 400
+      width: 400
   - scope:
       path: "" # An empty string here means all files in the project
       type: posts
