@@ -1,6 +1,6 @@
 ---
 published: true
-title: Nextjs.14 업데이트
+title: Nextjs14 업데이트
 date: 2023-10-30
 categories: [Nextjs]
 tags: [Nextjs, frontend, Reactjs]
